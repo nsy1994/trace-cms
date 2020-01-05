@@ -81,7 +81,7 @@ export default {
   // },
   proxy: {
     '/api': {
-      target: 'http://localhost:5000/',
+      target: 'http://59.68.78.56:5000/',
       changeOrigin: true,
       pathRewrite: { '^/api': '' },
     },
